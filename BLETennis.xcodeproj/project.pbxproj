@@ -30,6 +30,7 @@
 		C651E0261818CC4A00EABB99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C651E0231818CC4A00EABB99 /* README.md */; };
 		C651E0291818CCA400EABB99 /* VWWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E0281818CCA400EABB99 /* VWWAppDelegate.m */; };
 		C695A1D31818D0370061BEE0 /* BLETennis_sketch.ino in Resources */ = {isa = PBXBuildFile; fileRef = C695A1D21818D0370061BEE0 /* BLETennis_sketch.ino */; };
+		C695A1D61818DB140061BEE0 /* LCD.txt in Resources */ = {isa = PBXBuildFile; fileRef = C695A1D51818DB140061BEE0 /* LCD.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		C651E0271818CCA400EABB99 /* VWWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWAppDelegate.h; sourceTree = "<group>"; };
 		C651E0281818CCA400EABB99 /* VWWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWAppDelegate.m; sourceTree = "<group>"; };
 		C695A1D21818D0370061BEE0 /* BLETennis_sketch.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BLETennis_sketch.ino; sourceTree = "<group>"; };
+		C695A1D51818DB140061BEE0 /* LCD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LCD.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		C651DFD71818C71100EABB99 /* BLETennis */ = {
 			isa = PBXGroup;
 			children = (
+				C695A1D41818DAEA0061BEE0 /* Documentation */,
 				C651E0171818CC3300EABB99 /* BLE_Framework */,
 				C651E0091818CC1800EABB99 /* Controllers */,
 				C651DFEC1818C71100EABB99 /* Images.xcassets */,
@@ -243,6 +246,14 @@
 			path = BLETennis_Sketch;
 			sourceTree = "<group>";
 		};
+		C695A1D41818DAEA0061BEE0 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C695A1D51818DB140061BEE0 /* LCD.txt */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C695A1D61818DB140061BEE0 /* LCD.txt in Resources */,
 				C651DFE81818C71100EABB99 /* Main_iPad.storyboard in Resources */,
 				C651DFED1818C71100EABB99 /* Images.xcassets in Resources */,
 				C651E0261818CC4A00EABB99 /* README.md in Resources */,

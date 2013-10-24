@@ -1,0 +1,60 @@
+
+
+
+
+This LCD is an SPI drive GLCD. 
+
+// Amazon linke:
+http://www.amazon.com/gp/product/B007SS2HHQ/ref=wms_ohs_product?ie=UTF8&psc=1
+
+
+
+
+// pic of pinout:
+http://www.flickr.com/photos/73766535@N00/7875888908/lightbox/
+
+// Code for similar LCD
+http://www.dfrobot.com/wiki/index.php/3-wire_Serial_LCD_Module_%28Arduino_Compatible%29_%28SKU:DFR0091%29
+
+
+// A suggested blog about this LCD:
+http://bradsduino.blogspot.com/2012/11/sainsmart-12864-graphic-lcd-display.html
+
+//u8glib (a graphics library)
+http://code.google.com/p/u8glib/
+
+
+
+
+
+
+
+
+
+
+
+//The following code just draws a couple basic shapes, but it shows how the library works.
+
+#include <U8glib.h>
+
+U8GLIB_ST7920_128X64 u8g(13, 11, 12, U8G_PIN_NONE);         
+
+void draw(void) {
+  u8g.drawCircle(20, 20, 10);
+  u8g.drawDisc(30, 30, 10);
+  u8g.drawLine(60, 30, 90, 50);
+  u8g.drawBox(50, 50, 20, 10);
+  u8g.drawFrame(70, 10, 10, 30);
+}
+
+void setup(void) { }
+
+void loop(void) {
+  u8g.firstPage();  
+  do {
+    draw();
+  } while( u8g.nextPage() );
+  // rebuild the picture after some delay
+  delay(500);
+}
+
