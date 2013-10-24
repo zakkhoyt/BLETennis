@@ -18,18 +18,31 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_320" translatesAutoresizingMaskIntoConstraints="NO" id="wTC-87-AOL">
-                                <rect key="frame" x="20" y="20" width="281" height="280"/>
+                                <rect key="frame" x="60" y="20" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="280" id="0ef-Gu-HfK"/>
-                                    <constraint firstAttribute="width" constant="281" id="eLk-r3-xwy"/>
-                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-Hv-LJT">
-                                <rect key="frame" x="20" y="518" width="281" height="30"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vaporwarewolf BLE Tennis " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-Hx-zjN">
+                                <rect key="frame" x="20" y="228" width="280" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="eN4-tA-Qmw"/>
+                                    <constraint firstAttribute="height" constant="49" id="hzh-Xn-cGT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.4901961088180542" green="0.7882353663444519" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use Bluetooth 4.0 (low power) to connect to an arduino processor which drives the tennis ball motors. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Rqj-pt-SXm">
+                                <rect key="frame" x="20" y="285" width="280" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.49019610879999997" green="0.78823536630000002" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-Hv-LJT">
+                                <rect key="frame" x="20" y="518" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9zB-Xf-P6i"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Connect">
@@ -39,34 +52,23 @@
                                     <action selector="connectButtonTouchUpInside:" destination="JQO-ON-GOw" eventType="touchUpInside" id="dqk-1C-Oep"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Vaporwarewolf BLE Tennis " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-Hx-zjN">
-                                <rect key="frame" x="20" y="308" width="280" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <color key="textColor" red="0.4901961088180542" green="0.7882353663444519" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Use Bluetooth 4.0 (low power) to connect to an arduino processor which drives the tennis ball motors. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Rqj-pt-SXm">
-                                <rect key="frame" x="20" y="365" width="280" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <color key="textColor" red="0.49019610879999997" green="0.78823536630000002" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="leading" secondItem="Rqj-pt-SXm" secondAttribute="leading" id="FaX-J6-1OI"/>
-                            <constraint firstItem="Ncs-Hx-zjN" firstAttribute="top" secondItem="wTC-87-AOL" secondAttribute="bottom" constant="8" symbolic="YES" id="NdU-ch-W9I"/>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="centerX" secondItem="Rqj-pt-SXm" secondAttribute="centerX" id="UPu-3q-W9X"/>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="leading" secondItem="bAM-9x-haA" secondAttribute="leading" constant="20" symbolic="YES" id="UY8-dO-li4"/>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="leading" secondItem="Ncs-Hx-zjN" secondAttribute="leading" id="VQp-VQ-u0W"/>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="centerX" secondItem="Ncs-Hx-zjN" secondAttribute="centerX" id="Vqm-xy-Mrf"/>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="trailing" secondItem="s0v-Hv-LJT" secondAttribute="trailing" id="WPB-R4-mRf"/>
-                            <constraint firstAttribute="bottom" secondItem="s0v-Hv-LJT" secondAttribute="bottom" constant="20" symbolic="YES" id="Z43-Um-vdA"/>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="leading" secondItem="s0v-Hv-LJT" secondAttribute="leading" id="cLj-s2-thP"/>
-                            <constraint firstAttribute="trailing" secondItem="s0v-Hv-LJT" secondAttribute="trailing" constant="19" id="caC-a6-STf"/>
-                            <constraint firstItem="wTC-87-AOL" firstAttribute="top" secondItem="bAM-9x-haA" secondAttribute="top" constant="20" symbolic="YES" id="mnx-LI-02d"/>
+                            <constraint firstItem="Ncs-Hx-zjN" firstAttribute="top" secondItem="wTC-87-AOL" secondAttribute="bottom" constant="8" symbolic="YES" id="0BX-kV-cr5"/>
+                            <constraint firstItem="s0v-Hv-LJT" firstAttribute="top" secondItem="Rqj-pt-SXm" secondAttribute="bottom" constant="88" id="993-UE-UcZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ncs-Hx-zjN" secondAttribute="trailing" constant="20" symbolic="YES" id="CHx-o5-cEd"/>
+                            <constraint firstItem="Ncs-Hx-zjN" firstAttribute="top" secondItem="1Qz-C8-Qvh" secondAttribute="bottom" constant="208" id="Ecu-AR-C6f"/>
+                            <constraint firstItem="Rqj-pt-SXm" firstAttribute="trailing" secondItem="s0v-Hv-LJT" secondAttribute="trailing" id="K57-jJ-KhK"/>
+                            <constraint firstItem="wTC-87-AOL" firstAttribute="leading" secondItem="bAM-9x-haA" secondAttribute="leading" constant="60" id="LHt-lI-vV5"/>
+                            <constraint firstItem="RfW-u5-WA0" firstAttribute="top" secondItem="s0v-Hv-LJT" secondAttribute="bottom" constant="20" id="TA5-dW-d6L"/>
+                            <constraint firstItem="Rqj-pt-SXm" firstAttribute="leading" secondItem="s0v-Hv-LJT" secondAttribute="leading" id="Wua-sc-cTe"/>
+                            <constraint firstItem="Rqj-pt-SXm" firstAttribute="trailing" secondItem="Ncs-Hx-zjN" secondAttribute="trailing" id="WxI-0D-qLk"/>
+                            <constraint firstItem="Rqj-pt-SXm" firstAttribute="top" secondItem="Ncs-Hx-zjN" secondAttribute="top" constant="57" id="bR8-nw-VKd"/>
+                            <constraint firstItem="wTC-87-AOL" firstAttribute="top" secondItem="bAM-9x-haA" secondAttribute="top" constant="20" symbolic="YES" id="iPW-Rh-lan"/>
+                            <constraint firstItem="Ncs-Hx-zjN" firstAttribute="centerX" secondItem="wTC-87-AOL" secondAttribute="centerX" id="lAB-0D-gJH"/>
+                            <constraint firstItem="Ncs-Hx-zjN" firstAttribute="leading" secondItem="bAM-9x-haA" secondAttribute="leading" constant="20" symbolic="YES" id="ob6-ZN-mIx"/>
+                            <constraint firstItem="Rqj-pt-SXm" firstAttribute="leading" secondItem="Ncs-Hx-zjN" secondAttribute="leading" id="wCO-pq-8Pq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hHr-5x-eaF"/>
