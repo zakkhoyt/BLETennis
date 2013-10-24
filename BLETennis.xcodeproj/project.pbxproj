@@ -12,16 +12,24 @@
 		C651DFD61818C71100EABB99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651DFD51818C71100EABB99 /* UIKit.framework */; };
 		C651DFDC1818C71100EABB99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C651DFDA1818C71100EABB99 /* InfoPlist.strings */; };
 		C651DFDE1818C71100EABB99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C651DFDD1818C71100EABB99 /* main.m */; };
-		C651DFE21818C71100EABB99 /* VWWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C651DFE11818C71100EABB99 /* VWWAppDelegate.m */; };
 		C651DFE51818C71100EABB99 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C651DFE31818C71100EABB99 /* Main_iPhone.storyboard */; };
 		C651DFE81818C71100EABB99 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C651DFE61818C71100EABB99 /* Main_iPad.storyboard */; };
-		C651DFEB1818C71100EABB99 /* VWWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C651DFEA1818C71100EABB99 /* VWWViewController.m */; };
 		C651DFED1818C71100EABB99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C651DFEC1818C71100EABB99 /* Images.xcassets */; };
 		C651DFF41818C71100EABB99 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651DFF31818C71100EABB99 /* XCTest.framework */; };
 		C651DFF51818C71100EABB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651DFD11818C71100EABB99 /* Foundation.framework */; };
 		C651DFF61818C71100EABB99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651DFD51818C71100EABB99 /* UIKit.framework */; };
 		C651DFFE1818C71100EABB99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C651DFFC1818C71100EABB99 /* InfoPlist.strings */; };
 		C651E0001818C71100EABB99 /* BLETennisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C651DFFF1818C71100EABB99 /* BLETennisTests.m */; };
+		C651E0131818CC1800EABB99 /* VWWBLEController.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E00B1818CC1800EABB99 /* VWWBLEController.m */; };
+		C651E0141818CC1800EABB99 /* VWWConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E00D1818CC1800EABB99 /* VWWConnectViewController.m */; };
+		C651E0151818CC1800EABB99 /* VWWTennisTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E0101818CC1800EABB99 /* VWWTennisTableViewCell.m */; };
+		C651E0161818CC1800EABB99 /* VWWTennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E0121818CC1800EABB99 /* VWWTennisViewController.m */; };
+		C651E01B1818CC3400EABB99 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E0191818CC3300EABB99 /* BLE.m */; };
+		C651E0241818CC4A00EABB99 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E01F1818CC4A00EABB99 /* MBProgressHUD.m */; };
+		C651E0251818CC4A00EABB99 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E0221818CC4A00EABB99 /* NSTimer+Blocks.m */; };
+		C651E0261818CC4A00EABB99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C651E0231818CC4A00EABB99 /* README.md */; };
+		C651E0291818CCA400EABB99 /* VWWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C651E0281818CCA400EABB99 /* VWWAppDelegate.m */; };
+		C695A1D31818D0370061BEE0 /* BLETennis_sketch.ino in Resources */ = {isa = PBXBuildFile; fileRef = C695A1D21818D0370061BEE0 /* BLETennis_sketch.ino */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +51,34 @@
 		C651DFDB1818C71100EABB99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C651DFDD1818C71100EABB99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C651DFDF1818C71100EABB99 /* BLETennis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLETennis-Prefix.pch"; sourceTree = "<group>"; };
-		C651DFE01818C71100EABB99 /* VWWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWAppDelegate.h; sourceTree = "<group>"; };
-		C651DFE11818C71100EABB99 /* VWWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWAppDelegate.m; sourceTree = "<group>"; };
 		C651DFE41818C71100EABB99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		C651DFE71818C71100EABB99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C651DFE91818C71100EABB99 /* VWWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWViewController.h; sourceTree = "<group>"; };
-		C651DFEA1818C71100EABB99 /* VWWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWViewController.m; sourceTree = "<group>"; };
 		C651DFEC1818C71100EABB99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C651DFF21818C71100EABB99 /* BLETennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C651DFF31818C71100EABB99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C651DFFB1818C71100EABB99 /* BLETennisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLETennisTests-Info.plist"; sourceTree = "<group>"; };
 		C651DFFD1818C71100EABB99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C651DFFF1818C71100EABB99 /* BLETennisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLETennisTests.m; sourceTree = "<group>"; };
+		C651E00A1818CC1800EABB99 /* VWWBLEController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWBLEController.h; sourceTree = "<group>"; };
+		C651E00B1818CC1800EABB99 /* VWWBLEController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWBLEController.m; sourceTree = "<group>"; };
+		C651E00C1818CC1800EABB99 /* VWWConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWConnectViewController.h; sourceTree = "<group>"; };
+		C651E00D1818CC1800EABB99 /* VWWConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWConnectViewController.m; sourceTree = "<group>"; };
+		C651E00E1818CC1800EABB99 /* VWWTennisKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWTennisKeys.h; sourceTree = "<group>"; };
+		C651E00F1818CC1800EABB99 /* VWWTennisTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWTennisTableViewCell.h; sourceTree = "<group>"; };
+		C651E0101818CC1800EABB99 /* VWWTennisTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWTennisTableViewCell.m; sourceTree = "<group>"; };
+		C651E0111818CC1800EABB99 /* VWWTennisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWTennisViewController.h; sourceTree = "<group>"; };
+		C651E0121818CC1800EABB99 /* VWWTennisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWTennisViewController.m; sourceTree = "<group>"; };
+		C651E0181818CC3300EABB99 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		C651E0191818CC3300EABB99 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		C651E01A1818CC3300EABB99 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		C651E01E1818CC4A00EABB99 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C651E01F1818CC4A00EABB99 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C651E0211818CC4A00EABB99 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		C651E0221818CC4A00EABB99 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		C651E0231818CC4A00EABB99 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C651E0271818CCA400EABB99 /* VWWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWAppDelegate.h; sourceTree = "<group>"; };
+		C651E0281818CCA400EABB99 /* VWWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWAppDelegate.m; sourceTree = "<group>"; };
+		C695A1D21818D0370061BEE0 /* BLETennis_sketch.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BLETennis_sketch.ino; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				C651DFD71818C71100EABB99 /* BLETennis */,
+				C695A1D11818D0370061BEE0 /* BLETennis_Sketch */,
 				C651DFF91818C71100EABB99 /* BLETennisTests */,
 				C651DFD01818C71100EABB99 /* Frameworks */,
 				C651DFCF1818C71100EABB99 /* Products */,
@@ -114,14 +139,13 @@
 		C651DFD71818C71100EABB99 /* BLETennis */ = {
 			isa = PBXGroup;
 			children = (
-				C651DFE01818C71100EABB99 /* VWWAppDelegate.h */,
-				C651DFE11818C71100EABB99 /* VWWAppDelegate.m */,
-				C651DFE31818C71100EABB99 /* Main_iPhone.storyboard */,
-				C651DFE61818C71100EABB99 /* Main_iPad.storyboard */,
-				C651DFE91818C71100EABB99 /* VWWViewController.h */,
-				C651DFEA1818C71100EABB99 /* VWWViewController.m */,
+				C651E0171818CC3300EABB99 /* BLE_Framework */,
+				C651E0091818CC1800EABB99 /* Controllers */,
 				C651DFEC1818C71100EABB99 /* Images.xcassets */,
+				C651DFE61818C71100EABB99 /* Main_iPad.storyboard */,
+				C651DFE31818C71100EABB99 /* Main_iPhone.storyboard */,
 				C651DFD81818C71100EABB99 /* Supporting Files */,
+				C651E01C1818CC4A00EABB99 /* ThirdParty */,
 			);
 			path = BLETennis;
 			sourceTree = "<group>";
@@ -129,6 +153,8 @@
 		C651DFD81818C71100EABB99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C651E0271818CCA400EABB99 /* VWWAppDelegate.h */,
+				C651E0281818CCA400EABB99 /* VWWAppDelegate.m */,
 				C651DFD91818C71100EABB99 /* BLETennis-Info.plist */,
 				C651DFDA1818C71100EABB99 /* InfoPlist.strings */,
 				C651DFDD1818C71100EABB99 /* main.m */,
@@ -153,6 +179,68 @@
 				C651DFFC1818C71100EABB99 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C651E0091818CC1800EABB99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C651E00A1818CC1800EABB99 /* VWWBLEController.h */,
+				C651E00B1818CC1800EABB99 /* VWWBLEController.m */,
+				C651E00C1818CC1800EABB99 /* VWWConnectViewController.h */,
+				C651E00D1818CC1800EABB99 /* VWWConnectViewController.m */,
+				C651E00E1818CC1800EABB99 /* VWWTennisKeys.h */,
+				C651E00F1818CC1800EABB99 /* VWWTennisTableViewCell.h */,
+				C651E0101818CC1800EABB99 /* VWWTennisTableViewCell.m */,
+				C651E0111818CC1800EABB99 /* VWWTennisViewController.h */,
+				C651E0121818CC1800EABB99 /* VWWTennisViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C651E0171818CC3300EABB99 /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C651E0181818CC3300EABB99 /* BLE.h */,
+				C651E0191818CC3300EABB99 /* BLE.m */,
+				C651E01A1818CC3300EABB99 /* BLEDefines.h */,
+			);
+			path = BLE_Framework;
+			sourceTree = "<group>";
+		};
+		C651E01C1818CC4A00EABB99 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C651E01D1818CC4A00EABB99 /* MBProgressHUD */,
+				C651E0201818CC4A00EABB99 /* NSTimer-Blocks */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C651E01D1818CC4A00EABB99 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C651E01E1818CC4A00EABB99 /* MBProgressHUD.h */,
+				C651E01F1818CC4A00EABB99 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C651E0201818CC4A00EABB99 /* NSTimer-Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				C651E0211818CC4A00EABB99 /* NSTimer+Blocks.h */,
+				C651E0221818CC4A00EABB99 /* NSTimer+Blocks.m */,
+				C651E0231818CC4A00EABB99 /* README.md */,
+			);
+			path = "NSTimer-Blocks";
+			sourceTree = "<group>";
+		};
+		C695A1D11818D0370061BEE0 /* BLETennis_Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				C695A1D21818D0370061BEE0 /* BLETennis_sketch.ino */,
+			);
+			path = BLETennis_Sketch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +291,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Zakk Hoyt";
 				TargetAttributes = {
+					C651DFCD1818C71100EABB99 = {
+						DevelopmentTeam = J7U74N85YF;
+					};
 					C651DFF11818C71100EABB99 = {
 						TestTargetID = C651DFCD1818C71100EABB99;
 					};
@@ -234,8 +325,10 @@
 			files = (
 				C651DFE81818C71100EABB99 /* Main_iPad.storyboard in Resources */,
 				C651DFED1818C71100EABB99 /* Images.xcassets in Resources */,
+				C651E0261818CC4A00EABB99 /* README.md in Resources */,
 				C651DFE51818C71100EABB99 /* Main_iPhone.storyboard in Resources */,
 				C651DFDC1818C71100EABB99 /* InfoPlist.strings in Resources */,
+				C695A1D31818D0370061BEE0 /* BLETennis_sketch.ino in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C651DFEB1818C71100EABB99 /* VWWViewController.m in Sources */,
+				C651E0141818CC1800EABB99 /* VWWConnectViewController.m in Sources */,
+				C651E0131818CC1800EABB99 /* VWWBLEController.m in Sources */,
+				C651E0251818CC4A00EABB99 /* NSTimer+Blocks.m in Sources */,
+				C651E0151818CC1800EABB99 /* VWWTennisTableViewCell.m in Sources */,
+				C651E0291818CCA400EABB99 /* VWWAppDelegate.m in Sources */,
+				C651E01B1818CC3400EABB99 /* BLE.m in Sources */,
+				C651E0161818CC1800EABB99 /* VWWTennisViewController.m in Sources */,
 				C651DFDE1818C71100EABB99 /* main.m in Sources */,
-				C651DFE21818C71100EABB99 /* VWWAppDelegate.m in Sources */,
+				C651E0241818CC4A00EABB99 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +492,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLETennis/BLETennis-Prefix.pch";
 				INFOPLIST_FILE = "BLETennis/BLETennis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +509,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLETennis/BLETennis-Prefix.pch";
 				INFOPLIST_FILE = "BLETennis/BLETennis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +582,7 @@
 				C651E0051818C71100EABB99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C651E0061818C71100EABB99 /* Build configuration list for PBXNativeTarget "BLETennisTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +591,7 @@
 				C651E0081818C71100EABB99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
